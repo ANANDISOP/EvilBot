@@ -75,12 +75,12 @@ buttons = [
      [
         InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭", callback_data="evil_"),
         InlineKeyboardButton(
-            text="𝐎𝐖𝐍𝐄𝐑", url=f"https://t.me/MR_X_OP_BOLTE"
+            text="𝐎𝐰𝐧𝐞𝐫", url=f"https://t.me/MR_X_OP_BOLTE"
         ),
      ],
      [  
         InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/INDIAN_NETWORK_OP"),
-        InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url="https://t.me/INDIAN_NETWORK_OFFICIAL"),
+        InlineKeyboardButton(text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/JANEMAN_UPDATE"),
     ], 
 
     [
@@ -88,7 +88,7 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *Janeman* [👿](https://telegra.ph/file/514055f0ad5029a6ce440.jpg)
+`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *Janeman* [👿](https://telegra.ph/file/7c249ea255bf5dfd36cc7.jpg)
 `𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
 evil_IMG = "https://telegra.ph/file/f9118f7769355a9a8219f.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
@@ -306,8 +306,8 @@ def evil_about_callback(update, context):
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n❍ [SUPPORT CHAT](https://t.me/INDIAN_NETWORK_OP)
-                      [OWNER](https://t.me/MR_X_OP_BOLTE).""",
+                 \n❍ SUPPORT CHAT @INDIAN_NETWORK_OP
+                 \n❍ OWNER @MR_X_OP_BOLTE.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
